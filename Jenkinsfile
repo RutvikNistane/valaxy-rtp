@@ -7,6 +7,7 @@ pipeline {
          label "jenkins-slave"
       }
     }
+    
     stages {
         stage('Build') {
             steps {
